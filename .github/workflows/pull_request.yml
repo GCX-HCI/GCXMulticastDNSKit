@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Fastlane test
-      timeout-minutes: 10
       uses: maierj/fastlane-action@v1.4.0
       with:
         lane: tests
+      timeout-minutes: 10
