@@ -1,9 +1,11 @@
 name: Pull Request
 
 on:
+  push:
+    branches: master
   pull_request:
-    branches:
-      - master
+    types: [opened, reopened, ready_for_review, synchronize]
+    branches: master
       
 jobs:
   cancelPreviousRuns:
