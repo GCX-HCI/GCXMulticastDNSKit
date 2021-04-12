@@ -24,9 +24,6 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: swift build -v
-      timeout-minutes: 10
     - name: Run tests
       run: swift test -v
       timeout-minutes: 10
