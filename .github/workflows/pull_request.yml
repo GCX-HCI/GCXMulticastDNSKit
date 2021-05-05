@@ -23,6 +23,8 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run tests
-      run: swift test -v
+    - name: Fastlane test
+      uses: maierj/fastlane-action@v1.4.0
+      with:
+        lane: tests
       timeout-minutes: 10

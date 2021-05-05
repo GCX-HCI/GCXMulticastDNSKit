@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='GCXMulticastDNSKitTests.xctest' tests='7' failures='0'>
+  <testsuite name='GCXMulticastDNSKitTests.GCXDiscoveryTests' tests='7' failures='0'>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatAPublishedServiceIsDiscoveredUsingClosures' time='1.022'/>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatAPublishedServiceIsDiscoveredUsingDelegate' time='0.031'/>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatDiscoveryIsStoppedBeforeStartingANewDiscovery' time='0.002'/>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatInitialzationForClosuresWithEmptyConfigurationReturnsNil' time='0.001'/>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatInitialzationForClosuresWithValidConfigurationReturnsObject' time='0.001'/>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatInitialzationWithEmptyConfigurationReturnsNil' time='0.001'/>
+    <testcase classname='GCXMulticastDNSKitTests.GCXDiscoveryTests' name='testThatInitialzationWithValidConfigurationReturnsObject' time='0.001'/>
+  </testsuite>
+</testsuites>
